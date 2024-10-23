@@ -6,6 +6,7 @@ import {Button} from '@/components/ui/button.jsx';
 
 function App() {
    const [count, setCount] = useState(0)
+   console.log('test')
 
    return (
       <div className={'grid grid-cols-2'}>
